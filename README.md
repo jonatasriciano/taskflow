@@ -1,5 +1,4 @@
-  Project Presentation - Payshepherd body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f9fafc; color: #37474f; } header { background-color: #546e7a; color: white; padding: 20px 10px; text-align: center; } section { max-width: 800px; margin: 20px auto; background: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); } h1, h2, h3 { color: #546e7a; } ul { margin: 0; padding-left: 20px; } footer { text-align: center; margin-top: 20px; padding: 10px 0; color: #607d8b; font-size: 0.9rem; }
-
+Project Presentation - Payshepherd body 
 TaskFlow - Project Presentation
 ===============================
 
