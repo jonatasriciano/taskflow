@@ -31,6 +31,23 @@ Technical Stack
 *   **TypeScript:** Ensures type safety and better maintainability.
 *   **Docker:** The project is containerized for consistent deployment.
 
+Installation Guide
+------------------
+
+To get the TaskFlow application running on your local machine, follow these steps:
+
+### Prerequisites
+
+*   Docker installed on your machine
+*   Docker Compose (optional, for simplified multi-container deployment)
+
+### Steps
+
+1.  Clone the repository to your local machine: `git clone https://your-repository-url.git`
+2.  Navigate into the project directory: `cd taskflow-project`
+3.  Use Docker to build and run the containers. If you have Docker Compose, you can simply run: `docker-compose up --build`
+4.  Once the containers are running, the frontend should be accessible via `http://localhost:3000` and the JSON Server backend at `http://localhost:5001`.
+
 Highlight Features
 ------------------
 
