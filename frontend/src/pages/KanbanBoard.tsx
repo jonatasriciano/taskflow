@@ -49,6 +49,7 @@ const KanbanBoard: React.FC<KanbanBoardProps> = ({ tasks }) => {
                     padding: 2,
                     backgroundColor: "#f4f4f4", // Light gray background for columns
                     borderRadius: 2, // Rounded corners for aesthetic
+                    width: { xs: '100%', sm: 'auto' } // Full width on small screens, auto on wider screens
                   }}
                 >
                   <Typography variant="h6" gutterBottom>

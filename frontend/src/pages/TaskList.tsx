@@ -100,15 +100,15 @@ const TaskList = () => {
           justifyContent: "space-between",
           alignItems: "center",
           mb: 2,
+          flexWrap: "wrap" // Allows buttons to wrap on smaller screens
         }}
       >
         <Typography variant="h4">Tasks</Typography>
-        <Box>
+        <Box sx={{ display: "flex", gap: 1, flexWrap: "wrap" }}>
           <Button
             variant="contained"
             color="info"
             startIcon={<AddIcon />}
-            sx={{ mr: 1 }}
             onClick={handleAddTask}
           >
             Add Task
@@ -116,7 +116,6 @@ const TaskList = () => {
           <Button
             variant={view === "list" ? "contained" : "outlined"}
             startIcon={<ViewListIcon />}
-            sx={{ mr: 1 }}
             onClick={() => setView("list")}
           >
             List
@@ -124,7 +123,6 @@ const TaskList = () => {
           <Button
             variant={view === "grid" ? "contained" : "outlined"}
             startIcon={<GridViewIcon />}
-            sx={{ mr: 1 }}
             onClick={() => setView("grid")}
           >
             Grid
