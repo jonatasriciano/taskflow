@@ -1,19 +1,20 @@
+# Use the official Node.js 20 image as the base image
 FROM node:20
 
-# Define o diretório de trabalho no contêiner
+# Define the working directory inside the container
 WORKDIR /app
 
-# Instala o JSON-Server globalmente
+# Install the JSON-Server globally in the container
 RUN npm install -g json-server
 
-# Copia o arquivo do banco de dados para o contêiner
+# Copy the database file (db.json) from the host to the container
 COPY db.json /app/db.json
 
-# Ajusta permissões do arquivo
+# Adjust permissions for the database file to make it writable
 RUN chmod 666 /app/db.json
 
-# Expõe a porta 5001
+# Expose port 5001 to allow access to the JSON-Server from outside the container
 EXPOSE 5001
 
-# Comando para iniciar o servidor
+# Command to start the JSON-Server, watch for changes in db.json, and run on port 5001
 CMD ["json-server", "--watch", "/app/db.json", "--port", "5001"]

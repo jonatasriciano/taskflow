@@ -1,3 +1,94 @@
-{
-  "tasks": []
+{ 
+  "tasks": [
+    {
+      "id": "d001",
+      "title": "Fix a bug in the login feature",
+      "description": "Investigate and resolve an issue where users are unable to log in with valid credentials.",
+      "status": "In Progress"
+    },
+    {
+      "id": "d002",
+      "title": "Optimize database queries",
+      "description": "Improve the performance of SQL queries for the analytics dashboard to reduce loading times.",
+      "status": "Pending"
+    },
+    {
+      "id": "d003",
+      "title": "Implement dark mode",
+      "description": "Add a toggle for dark mode to the application and ensure compatibility with existing themes.",
+      "status": "Pending"
+    },
+    {
+      "id": "d004",
+      "title": "Refactor authentication module",
+      "description": "Clean up the codebase for the authentication module to improve maintainability and readability.",
+      "status": "Completed"
+    },
+    {
+      "id": "d005",
+      "title": "Write unit tests for API endpoints",
+      "description": "Create comprehensive unit tests for all REST API endpoints to ensure reliability and prevent regressions.",
+      "status": "In Progress"
+    },
+    {
+      "id": "d006",
+      "title": "Update third-party libraries",
+      "description": "Upgrade outdated npm and pip packages to the latest stable versions and test for compatibility.",
+      "status": "Pending"
+    },
+    {
+      "id": "d007",
+      "title": "Code review for team member's pull request",
+      "description": "Review the code changes in the latest pull request and provide feedback on improvements.",
+      "status": "Pending"
+    },
+    {
+      "id": "d008",
+      "title": "Debug email notifications",
+      "description": "Identify and resolve the issue causing email notifications to fail for certain users.",
+      "status": "In Progress"
+    },
+    {
+      "id": "d009",
+      "title": "Document API usage",
+      "description": "Write detailed documentation for the public API, including usage examples and common errors.",
+      "status": "Completed"
+    },
+    {
+      "id": "d010",
+      "title": "Set up CI/CD pipeline",
+      "description": "Configure a continuous integration and delivery pipeline for automated testing and deployment.",
+      "status": "Pending"
+    },
+    {
+      "id": "d011",
+      "title": "Migrate legacy code to new framework",
+      "description": "Port functionality from the old framework to the new one, ensuring feature parity.",
+      "status": "In Progress"
+    },
+    {
+      "id": "d012",
+      "title": "Conduct a security audit",
+      "description": "Perform a comprehensive security audit to identify and fix vulnerabilities in the application.",
+      "status": "Pending"
+    },
+    {
+      "id": "d013",
+      "title": "Design a RESTful API for the new feature",
+      "description": "Create specifications and endpoints for the new feature to align with RESTful principles.",
+      "status": "Completed"
+    },
+    {
+      "id": "d014",
+      "title": "Prepare for sprint planning",
+      "description": "Analyze current progress and prepare a list of tasks for the upcoming sprint planning meeting.",
+      "status": "Pending"
+    },
+    {
+      "id": "d015",
+      "title": "Implement data caching",
+      "description": "Add caching for frequently accessed data to improve the application's performance.",
+      "status": "In Progress"
+    }
+  ]
 }
