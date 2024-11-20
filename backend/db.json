@@ -1,0 +1,17 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Show my skills in React",
+      "description": "Show my skills in React.js and TypeScript",
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "title": "Setup Docker",
+      "description": "Set up Docker for the project",
+      "status": "Completed"
+    }
+  ],
+  "users": []
+}
