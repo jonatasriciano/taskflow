@@ -15,7 +15,7 @@ const AddTask = () => {
       return;
     }
 
-    addTask({ title, description, completed: false });
+    addTask({ title, description, status: "Pending" });
     navigate("/");
   };
 
